@@ -1,0 +1,257 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no, minimal-ui" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <title>从此结发，永为连理</title>
+    <meta name="description" itemprop="description" content="两姓联姻，一堂缔约，良缘永结，匹配同称。看此日桃花灼灼，宜室宜家，卜他年瓜瓞绵绵，尔昌尔炽。谨以白头之约，书向鸿笺，好将红叶之盟，载明鸳谱。此证。">
+	<meta name="keywords" content="" /> 
+	<meta content="all" name="robots" />
+	<link href="css/swiper.min.css" rel="stylesheet" type="text/css" />
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <link href="css/animate.min.css" rel="stylesheet" type="text/css">
+    <script src="https://cdn1.lncld.net/static/js/av-min-1.2.1.js"></script>
+     <!-- handlebars -->
+    <script src="js/handlebars.min.js"></script>
+
+    <style>
+    .bgm-btn{ position:absolute; top: 16px; left:16px; width: 30px; height: 30px; background-size: 100%; background-image: url("img/music.png"); z-index: 100; -webkit-animation: myrotate 5s linear 0s infinite normal;}
+    .bgm-btn.mut{ background-position: 0px -30px; -webkit-animation: none;}
+
+    @-webkit-keyframes myrotate /*Safari and Chrome*/
+    {
+    0% { -webkit-transform:rotate(0deg);}
+    25% { -webkit-transform:rotate(-90deg);}	
+    50% { -webkit-transform:rotate(-180deg);}
+    75% { -webkit-transform:rotate(-270deg);}
+    100% { -webkit-transform:rotate(-360deg);}
+    }
+
+    </style>
+	<script>
+        (function (doc, win) {
+            var docEl = doc.documentElement,
+                resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+                recalc = function () {
+                    var clientWidth = docEl.clientWidth;
+                    if (clientWidth < 320) {
+                        docEl.style.fontSize = 50 + 'px'
+                    } else if (clientWidth > 640) {
+                        docEl.style.fontSize = 100 + 'px'
+                    } else {
+                        docEl.style.fontSize = 100 * (clientWidth / 640) + 'px';
+                    }
+                };
+                recalc();
+                if (!doc.addEventListener) return;
+                win.addEventListener(resizeEvt, recalc, false);
+        })(document, window);
+    </script>
+</head>
+<body>
+	<!-- 加载 start -->
+    <div class="load-box" id="load">
+        <div class="load-wrap">
+           <div class="load-t">
+                <div class="cw-box">
+                    <!--<img src="img/car2.png" alt="" style="width:5rem;" />-->
+                </div>
+                <div class="t-box">
+                    <span id="proBar" class="load-ant"></span>
+                </div>
+               <div class="load-txt" id="loadTxt">0%</div>
+           </div>
+        </div>
+    </div>
+    <!-- 加载 end-->
+    <audio id="bgm" src="img/a.mp3" autoplay="autoplay" loop="" style="display: none; width: 0; height: 0;"></audio>
+	<div class="">
+        <div class="bgm-btn"></div>
+		<div class="page-wrap">
+			<div class="swiper-container page-swiper">
+				<div class="container swiper-wrapper">
+					<section class="swiper-slide page page1">
+						<div class="flower1 ani" swiper-animate-effect="fadeInDown"><img src="img/flower1.png" alt=""></div>          
+                        
+                        <div class="ani face horizontal-center" swiper-animate-effect="zoomIn"><img src="img/face.png" alt=""></div>
+                        <div class="tit">婚礼邀请函</div>
+                        <div class="zt">赵雪松 & 田原</div>
+                        <div class="date">2017.09.27</div>
+                        <div class="txt1 ani" swiper-animate-effect="fadeInUp">所有的美好<br/>都在这个秋天继续发酵</div>
+                        <div class="ani btmflower1" swiper-animate-effect="zoomIn"><img src="img/flowerleftbottom.png" alt=""></div>
+                        <div class="ani btmflower2" swiper-animate-effect="zoomIn" swiper-animate-delay="0.5s"><img src="img/flower3.png" alt=""></div>
+                        
+                        <div class="arrow"><img src="img/arrow.png" alt=""></div>
+                    </section>
+                    <section class="swiper-slide page page2">
+                        <div class="flower1 ani" swiper-animate-effect="fadeInDown"><img src="img/flower1.png" alt=""></div>
+
+                        <div class="photo ani" swiper-animate-effect="fadeInLeft">
+                            <img src="img/p1.jpg" alt="">
+                        </div>
+
+                        <div class="ani btmflower1" swiper-animate-effect="zoomIn"><img src="img/flowerleftbottom.png" alt=""></div>
+                        <div class="ani btmflower2" swiper-animate-effect="zoomIn" swiper-animate-delay="0.5s"><img src="img/flower3.png" alt=""></div>
+                        
+                        <div class="arrow"><img src="img/arrow.png" alt=""></div>
+                    </section>
+                    <section class="swiper-slide page page3">
+                        <div class="flower1 ani" swiper-animate-effect="fadeInDown"><img src="img/flower1.png" alt=""></div>
+
+                        <div class="photo ani" swiper-animate-effect="fadeInRight">
+                            <img src="img/p2.jpg" alt="">
+                        </div>
+
+                        <div class="ani heart" swiper-animate-effect="bounceIn" swiper-animate-delay="1s">
+                                <img src="img/heart1.png" alt="">
+                            </div>
+
+                        <div class="ani btmflower1" swiper-animate-effect="zoomIn"><img src="img/flowerleftbottom.png" alt=""></div>
+                        <div class="ani btmflower2" swiper-animate-effect="zoomIn" swiper-animate-delay="0.5s"><img src="img/flower3.png" alt=""></div>
+                        
+                        <div class="arrow"><img src="img/arrow.png" alt=""></div>
+                    </section>
+                    <section class="swiper-slide page page4">
+                        <div class="flower1 ani" swiper-animate-effect="fadeInDown"><img src="img/flower1.png" alt=""></div>
+
+                        <div class="photo ani" swiper-animate-effect="flipInX">
+                            <img src="img/p3.jpg" alt="">
+                        </div>
+                        <div class="photo2 ani" swiper-animate-effect="flipInY">
+                            <img src="img/p9.jpg" alt="">
+                        </div>
+
+                        <div class="ani bike" swiper-animate-effect="fadeInLeft" swiper-animate-duration="3s"><img src="img/bike.png" alt=""></div>
+
+                        <div class="ani heart" swiper-animate-effect="bounceIn">
+                            <img src="img/heart1.png" alt="">
+                        </div>
+
+                        <!-- <div class="ani btmflower1" swiper-animate-effect="zoomIn"><img src="img/flowerleftbottom.png" alt=""></div> -->
+                        <div class="ani btmflower2" swiper-animate-effect="zoomIn" swiper-animate-delay="0.5s"><img src="img/flower3.png" alt=""></div>
+                        
+                        <div class="arrow"><img src="img/arrow.png" alt=""></div>
+                    </section>
+                    <section class="swiper-slide page page5">
+                        <div class="flower1 ani" swiper-animate-effect="fadeInDown"><img src="img/flower1.png" alt=""></div>
+
+                        <div class="photo ani" swiper-animate-effect="flipInX">
+                            <img src="img/p10.jpg" alt="">
+                        </div>
+                        <div class="photo2 ani" swiper-animate-effect="flipInY">
+                            <img src="img/p11.jpg" alt="">
+                        </div>
+                        
+                        <div class="ani heart" swiper-animate-effect="bounceIn">
+                            <img src="img/hudiejie.png" alt="">
+                        </div>
+
+                        <div class="ani btmflower1" swiper-animate-effect="zoomIn"><img src="img/flowerleftbottom.png" alt=""></div>
+                        <div class="ani btmflower2" swiper-animate-effect="zoomIn" swiper-animate-delay="0.5s"><img src="img/flower3.png" alt=""></div>
+                        
+                        <div class="arrow"><img src="img/arrow.png" alt=""></div>
+                    </section>
+
+					<section class="swiper-slide page page6">
+                        <div class="flower1 ani" swiper-animate-effect="fadeInDown"><img src="img/flower1.png" alt=""></div>
+                        <ul class="picwrap flex">
+                            <li class="flex-1 flex">
+                                <div class="ani flex-1" swiper-animate-effect="fadeIn" swiper-animate-delay="0.3s" style="background-image:url(img/p5.jpg)"></div>
+                                <div class="ani flex-1" swiper-animate-effect="fadeIn" swiper-animate-delay="0.6s"  style="background-image:url(img/p6.jpg)"></div>
+                            </li>
+                            <li class="flex-1 flex">
+                                <div class="ani flex-1" swiper-animate-effect="fadeIn" swiper-animate-delay="0.8s" style="background-image:url(img/p7.jpg)"></div>
+                                <div class="ani flex-1" swiper-animate-effect="fadeIn" swiper-animate-delay="1.2s"  style="background-image:url(img/p8.jpg)"></div>
+                            </li>
+
+                        </ul>
+
+                        <div class="ani btmflower1" swiper-animate-effect="zoomIn"><img src="img/flowerleftbottom.png" alt=""></div>
+                        <div class="ani btmflower2" swiper-animate-effect="zoomIn" swiper-animate-delay="0.5s"><img src="img/flower3.png" alt=""></div>
+
+						<div class="arrow"><img src="img/arrow.png" alt=""></div>
+					</section>
+
+                    <section class="swiper-slide page page7">
+                        
+                        <div class="msgbord">
+                            <form class="new-message">
+                                <h2 class="new-message-heading">留言在这</h2>
+                                <div><label for="guest-name" class="sr-only">姓名：</label>
+                                <input type="text" id="inputTitle" class="form-control" placeholder="姓名"></div>
+                                <div><label for="inputPrice" class="sr-only">手机：</label>
+                                <input type="tel" id="inputPrice" class="form-control" placeholder="手机号"></div>
+                                <div><label for="inputDescription" class="sr-only" style="vertical-align:top">留言：</label>
+                                <textarea type="description" id="inputDescription" class="form-control" placeholder="想说的话..."></textarea></div>
+                                <div><button class="btn new-msg-btn" type="submit">发送</button></div>
+                            </form>
+                        </div>
+
+                        
+                        <div class="txt">2017年八月初八<br/>以宴宾客<br/>家中成礼<br/>盼出席</div>
+                        <div class="address">地址：保定 莲池区 青堡村</div>
+                        <p class="nav">导航</p>
+					</section>
+				</div>
+                <div class="swiper-pagination"></div>
+			</div>
+		</div>
+        
+	</div>	
+    <div class="cd-folding-panel">
+		<div class="fold-right"></div>
+		<div class="cd-fold-content">
+            <div class="largePic">
+                <img src="img/pic1.jpg" alt="">
+            </div>
+            <!-- <div class="text"></div> -->
+            <div class="map" id="container" style="display:none">
+                <iframe src="http://apis.map.qq.com/uri/v1/marker?marker=coord:38.8203,115.5574;title:美好的事情即将发生;addr:保定市莲池区青堡村&referer=invitation" frameborder="0" width="100%" height="100%"></iframe>
+            </div>
+		</div>
+
+		<a class="cd-close"></a>
+	</div>
+    <div class="tips">
+
+    </div>
+
+    <script src="js/jquery-2.1.4.min.js" type="text/javascript"></script>
+    <script type="text/javascript" src="js/swiper.jquery.min.js"></script>
+    <script type="text/javascript" src="js/plugin.js"></script>
+    <script type="text/javascript" src="js/picdata.js"></script>
+    <script type="text/javascript" src="js/common.js"></script>
+    
+	<script type="text/javascript">
+        $(function(){
+            Loadimg();
+            
+        })
+        var firstTouch = true;
+        $('body').bind("touchstart",function(e){
+            if ( firstTouch ) {
+                firstTouch = false;
+                document.getElementById('bgm').play();
+            }else{
+                return;
+            }
+        });
+
+        $(".bgm-btn").bind("touchstart",function(e){  
+            //e.preventDefault();
+            //e.stopPropagation();
+            var dom = document.getElementById('bgm');
+            if( dom.paused ){
+                dom.play();
+                $(".bgm-btn").removeClass("mut");
+            }else{
+                dom.pause();
+                $(".bgm-btn").addClass("mut");
+            }
+        });
+    </script>
+</body>
+</html>
