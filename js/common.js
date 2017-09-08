@@ -1,3 +1,13 @@
+function AlertDiv(msg) {
+    $(".tips-panel-msg").html(msg);
+    $(".tips-panel").css({ display: 'block' }).animate({ opacity: 1 });
+    var timer = setTimeout(function () {
+        $(".tips-panel").animate({ opacity: 0 }, function () { $(this).css("display", "none") });
+    }, 3000);
+}
+
+
+
 var APP_ID = 'xXTWVsYcM10WfzQAy7IRg3b6-gzGzoHsz';
 var APP_KEY = 'dY5DRVCBRckB4uaUsRNutVRa';
 AV.init({
@@ -20,7 +30,7 @@ function releaseNewProduct() {
  // message.set('image', avFile);
   message.save().then(function() {
     //window.location.href = "./../products-list/products-list.html";
-    console.log("1")
+    AlertDiv("您的祝福已经火速发往我的数据库，感谢")
 
   }, function(error) {
     alert(JSON.stringify(error));
@@ -126,5 +136,7 @@ $(document).ready(function () {
         }
 
     });
+
+    
 
 });
